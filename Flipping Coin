@@ -2,7 +2,6 @@
 
 HEAD=0
 TAIL=1
-case "$Coin" in
 
 	COIN= $(($RANDOM%2));
 	echo "COIN:-" $COIN;
