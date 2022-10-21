@@ -1,0 +1,10 @@
+#!/bin/bash
+
+COIN= $(($RANDOM%2));
+	if [[$ COIN -eq 0]];
+	then 
+		echo "Heads"
+	elif [[$ COIN -eq 1]];
+	then
+		echo "Tails"
+	fi
